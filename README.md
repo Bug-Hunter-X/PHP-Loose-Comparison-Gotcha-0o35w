@@ -1,0 +1,2 @@
+# PHP Loose Comparison Gotcha
+This code demonstrates a common pitfall in PHP: loose comparisons.  Loose comparisons (using `==` instead of `===`) can lead to unexpected results due to PHP's type juggling.  The `foo` function intends to check for strict equality, but the loose comparison leads to unexpected `true` values in various scenarios.
